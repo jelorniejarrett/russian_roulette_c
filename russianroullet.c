@@ -54,7 +54,12 @@ int main() {
                 printf("You passed the gun.\n");
                 playerTurn = 0;
             }
-
+            
+            else {
+                printf("Invalid input");
+                gameOver = 1;
+            }
+                
         }
 
         //opponent turn
