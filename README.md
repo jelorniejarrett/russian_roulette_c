@@ -5,7 +5,6 @@ The game simulates a revolver with **7 chambers and 3 bullets** where the player
 
 The objective is to survive while forcing the opponent to pull the trigger on a loaded chamber.
 
----
 
 ## Features
 
@@ -32,7 +31,6 @@ The objective is to survive while forcing the opponent to pull the trigger on a 
 5. The chamber rotates after each turn.
 6. The game continues until someone fires a loaded chamber.
 
----
 
 ## Technologies Used
 
@@ -43,13 +41,13 @@ The objective is to survive while forcing the opponent to pull the trigger on a 
   * `stdlib.h`
   * `time.h`
 
----
 
 ## How to Run the Program
 
 ### 1. Clone the Repository
+
 ```bash
-https://github.com/jelorniejarrett/russian_roulette_c
+git clone https://github.com/yourusername/russian-roulette-c.git
 ```
 
 ### 2. Navigate to the Project Folder
@@ -60,7 +58,7 @@ cd russian-roulette-c
 
 ### 3. Compile the Program
 
-Using GCC compiler:
+Using **GCC compiler**:
 
 ```bash
 gcc russian_roulette.c -o roulette
@@ -78,7 +76,6 @@ gcc russian_roulette.c -o roulette
 roulette.exe
 ```
 
----
 
 ## Example Gameplay
 
@@ -99,9 +96,6 @@ Your turn:
 ```
 
 
-
----
-
 ## Concepts Demonstrated
 
 This project demonstrates several important programming concepts:
@@ -113,7 +107,6 @@ This project demonstrates several important programming concepts:
 * Player vs AI gameplay
 * Turn-based mechanics
 
----
 
 ## Future Improvements
 
