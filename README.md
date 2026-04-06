@@ -1,7 +1,7 @@
 # Russian Roulette (C Command Line Game)
 
-A simple **command-line Russian Roulette game written in C**.
-The game simulates a revolver with **7 chambers and 3 bullets** where the player and an AI opponent take turns deciding whether to **shoot or pass the gun**.
+A simple command-line Russian Roulette game written in C.
+The game simulates a revolver with 7 chambers and 3 bullets where the player and an AI opponent take turns deciding whether to shoot or pass the gun.
 
 The objective is to survive while forcing the opponent to pull the trigger on a loaded chamber.
 
@@ -12,8 +12,8 @@ The objective is to survive while forcing the opponent to pull the trigger on a 
 * Turn-based gameplay (Player vs Computer)
 * Player choices:
 
-  * **Shoot**
-  * **Pass the gun**
+  * Shoot
+  * Pass the gun
 * AI opponent that randomly decides actions
 * Game ends when a loaded chamber is fired
 
@@ -21,20 +21,20 @@ The objective is to survive while forcing the opponent to pull the trigger on a 
 
 ## How the Game Works
 
-1. The revolver cylinder contains **7 chambers**.
-2. **3 bullets are randomly placed** in the cylinder at the start of the game.
+1. The revolver cylinder contains 7 chambers.
+2. 3 bullets are randomly placed in the cylinder at the start of the game.
 3. The player chooses to:
 
-   * **Shoot** (pull the trigger)
-   * **Pass** the gun to the opponent
-4. If a bullet is in the current chamber when the trigger is pulled, that player **loses the game**.
+   * Shoot (pull the trigger)
+   * Pass the gun to the opponent
+4. If a bullet is in the current chamber when the trigger is pulled, that player loses the game.
 5. The chamber rotates after each turn.
 6. The game continues until someone fires a loaded chamber.
 
 
 ## Technologies Used
 
-* **C Programming Language**
+* C Programming Language
 * Standard C libraries:
 
   * `stdio.h`
@@ -47,13 +47,13 @@ The objective is to survive while forcing the opponent to pull the trigger on a 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/russian-roulette-c.git
+git clone https://github.com/jelorniejarrett/russian_roulette_c.git
 ```
 
 ### 2. Navigate to the Project Folder
 
 ```bash
-cd russian-roulette-c
+cd russian_roulette_c
 ```
 
 ### 3. Compile the Program
