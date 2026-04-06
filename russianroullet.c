@@ -58,8 +58,7 @@ int main() {
             else {
                 printf("Invalid input");
                 gameOver = 1;
-            }
-                
+            }          
         }
 
         //opponent turn
@@ -81,13 +80,11 @@ int main() {
                     printf("Click! Opponent survived.\n");
                     playerTurn = 1;
                 }
-
             }
             else {
                 printf("Opponent passes the gun.\n");
                 playerTurn = 1;
             }
-
         }
         chamber++;
 
